@@ -1,0 +1,4 @@
+@AppTbd_HostAddress = {{host_address}}
+
+GET {{AppTbd_HostAddress}}/weatherforecast/
+Accept: application/json
