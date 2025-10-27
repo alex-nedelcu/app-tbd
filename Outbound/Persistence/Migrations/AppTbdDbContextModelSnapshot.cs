@@ -28,6 +28,9 @@ namespace AppTbd.Outbound.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime?>("Deadline")
+                        .HasColumnType("datetime2");
+
                     b.Property<bool>("IsComplete")
                         .HasColumnType("bit");
 
