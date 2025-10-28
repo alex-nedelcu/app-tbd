@@ -6,4 +6,7 @@ public class TodoItemEntity
     public required string Name { get; set; }
     public required bool IsComplete { get; set; }
     public DateTime? Deadline { get; set; }
+
+    // Relationships
+    public CategoryEntity? Category { get; set; }
 }
