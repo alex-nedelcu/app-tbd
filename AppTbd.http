@@ -1,4 +1,4 @@
 @AppTbd_HostAddress = {{host_address}}
 
-GET {{AppTbd_HostAddress}}/weatherforecast/
+GET {{AppTbd_HostAddress}}/api/TodoItems
 Accept: application/json
